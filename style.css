@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* ===========
+Common Element 
+============*/
+:root{
+    --primary-color:#E6533C;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+.nav-container{
+    width: 73%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.container{
+    width: 73%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.info-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+    border:1px solid white ;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.primary-btn{
+    background-color: var(--primary-color);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+
+
+
+
+
+/* =========== 
+Header Section
+===========*/
+
+header{
+    background: linear-gradient(180.00deg, rgba(17.41, 17.41, 17.41, 1) 0%,rgba(119.41, 119.41, 119.41, 0) 100%);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+
+
+.logo{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+
+.menu-bar{
+    list-style: none;
+display: flex;
+align-items: center;
+gap: 47px;
+padding: 4px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;;
+}
+.menu-bar > li{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 8px 20px;
+    border-radius: 46px;
+    cursor: pointer;
+
+}
+
+.home-btn{
+    background-color: var(--primary-color);
+
+}
+
+.hero-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+.hero-text{
+    max-width: 520px;
+}
+.hero-title{
+    font-size: 4.85rem;
+    font-weight: 900;
+    
+}
+
+.hero-btn{
+    margin-top: 28px;
+    display: flex;
+    gap: 14px;
+}
+.hero-img{
+    position: relative;
+}
+.hero-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+.tooltip-01{
+    padding: 17px 24px;
+    border-radius:12px ;
+    background: #9e9e9e70;
+    position: absolute;
+    top: 40%;
+    right: -30%;
+}
+.tooltip-02{
+    padding: 17px 24px;
+    border-radius:12px ;
+    background: #9e9e9e70;
+    position: absolute;
+    bottom: 10%;
+    left: -30%;
+    color: #E6533C;
+}

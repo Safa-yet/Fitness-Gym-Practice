@@ -1,0 +1,25 @@
+@media screen and (max-width:784px) {
+    .nav-container{
+        width: 87%;
+        max-width: 684px;
+
+    }
+    .menu-bar{
+        gap: 20px;
+    }
+    .hero-sec{
+        margin:75px auto ;
+        flex-direction: column;
+        gap:101px ;
+    }
+
+    .tooltip-01{
+    padding: 17px 24px;
+    border-radius:12px ;
+    background: #9e9e9e70;
+    position: absolute;
+    top: 10%;
+    right: -20%;
+}
+
+}
