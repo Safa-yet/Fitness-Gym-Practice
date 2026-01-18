@@ -4,12 +4,15 @@
     }
     .toggle-btn{
         display: block;
+        font-size: x-large;
+        color: var(#9e9e9e70);
     }
     .hero-title{
         font-size: 2rem;
     }
 
     .hero-btn{
+        display: flex;
         flex-direction: column;
     }
     .tooltip-02{
@@ -31,5 +34,17 @@
 }
 .hero-02-content h1{
     font-size: 2rem;
+}
+
+.gallary-container{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,128px);
+    gap: 10px;
+}
+.gallary-container img{
+    border-radius: 12px;
+}
+.grid-col-span{
+    grid-column: auto;
 }
 }
