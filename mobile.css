@@ -1,0 +1,35 @@
+@media screen  and (max-width:576px) {
+    .menu-bar{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+
+    .hero-btn{
+        flex-direction: column;
+    }
+    .tooltip-02{
+          left: -10%;
+    }
+    .tooltip-01{
+          right: -10%;
+    }
+    .section-head h1 {
+  font-size: 2rem;
+}
+    .habit-sec {
+
+  grid-template-columns: repeat(1,1fr);
+ 
+}
+.hero-02{
+    flex-direction: column-reverse;
+}
+.hero-02-content h1{
+    font-size: 2rem;
+}
+}
